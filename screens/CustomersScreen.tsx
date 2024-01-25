@@ -2,7 +2,7 @@ import React from 'react'
 import { SafeAreaView, Text, View } from 'react-native'
 import { useTailwind } from 'tailwind-rn/dist';
 
-function CustomersScreen() {
+const CustomersScreen = () => {
   const tailwind = useTailwind();
 
   return (
